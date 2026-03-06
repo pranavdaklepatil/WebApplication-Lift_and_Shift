@@ -5,5 +5,4 @@
     2.Tomcat Application Server security group allowed from load balancer
     3.Security group for backend server (mysql, memcache, and rabbitmq ) allowed from Tomcat App Server
 4.Create keypair 
-5.Create instacences acoording to the correct security group 
-6.
+5.Create instacences acoording to the correct security group with provisioning for mysql instance we have the script mysql.sh 
