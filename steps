@@ -6,3 +6,11 @@
     3.Security group for backend server (mysql, memcache, and rabbitmq ) allowed from Tomcat App Server
 4.Create keypair 
 5.Create instacences acoording to the correct security group with provisioning for mysql instance we have the script mysql.sh 
+6.create hosted zone ---> private 
+         Create records for all instances like db01.domain.name   ----> Private IP 
+7.crate IAM User with full access to S3 
+    create access keys 
+8.Create role for service ec2 with full acess to S3 
+    attach role to Appserver 
+9.Build the artifict and push it to the s3 bucket 
+    
