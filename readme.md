@@ -106,7 +106,7 @@ The application is a Java-based social networking platform built with Spring MVC
 
 ### ☁️ AWS & DevOps Requirements
 
-- [x] An active **AWS Account** — [Create one here](https://aws.amazon.com/free/)
+- [x] An active **AWS Account** 
 - [x] **AWS CLI v2** installed and configured — [📄 Install Guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 - [x] **Git** installed — [📥 Download](https://git-scm.com/downloads)
 - [x] Basic knowledge of AWS Console navigation
@@ -632,7 +632,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <div align="center">
 
 Made with ❤️ | AWS Cloud Migration Project
-
-[![AWS](https://img.shields.io/badge/Powered_by-AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
 
 </div>
