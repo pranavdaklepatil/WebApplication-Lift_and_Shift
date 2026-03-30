@@ -582,32 +582,6 @@ Open the ELB DNS endpoint in your browser to confirm the VPROFILE app is live an
 
 > ✅ **Deployment successful!** The VPROFILE login page is live and served through the AWS Application Load Balancer.
 
----
-
-## 📁 Project Structure
-
-```
-WebApplication-Lift_and_Shift/
-├── src/
-│   └── main/
-│       ├── java/                       # Spring MVC / Security / JPA source code
-│       ├── webapp/
-│       │   └── WEB-INF/
-│       │       └── views/              # JSP view templates
-│       └── resources/
-│           ├── application.properties  # DB, cache, MQ connection config
-│           └── db_backup.sql           # MySQL schema + seed data dump
-├── target/
-│   └── vprofile-v2.war                 # Built artifact (mvn install output)
-├── userdata/
-│   ├── mysql.sh                        # MariaDB install + DB restore script
-│   ├── memcache.sh                     # Memcached install script
-│   ├── rabbitmq.sh                     # RabbitMQ install script
-│   └── tomcat_ubuntu.sh                # Tomcat 10 install script (Ubuntu)
-├── screenshorts/                       # All project screenshots
-├── pom.xml                             # Maven project configuration
-└── README.md
-```
 
 ---
 
